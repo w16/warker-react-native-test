@@ -17,7 +17,7 @@ URL BASE: `https://warker-api.vercel.app/api`
 ### Modelos
 
 ```ts
-type Coordinates: {
+type Coordinates = {
     latitude: number;
     longitude: number;
 }
@@ -43,9 +43,9 @@ Retorno de todas as cidades de forma paginada
 
 ```ts
 // Request - query parameters
-type per_page?: number
-type page?: number
-type search?: string
+type per_page = number | undefined
+type page = number | undefined
+type search = string | undefined
 ```
 
 ```ts
@@ -67,8 +67,8 @@ Retorna a capital mais proxima ao usuário
 
 ```ts
 // Request - query parameters
-type latitude: number
-type longitude: number
+type latitude = number
+type longitude = number
 ```
 
 ```ts
@@ -92,8 +92,8 @@ Retorno paginado de todos os postos presentes na cidade.
 
 ```ts
 // Request - query parameters
-type per_page?: number
-type page?: number
+type per_page = number | undefined
+type page = number | undefined
 ```
 
 ```ts
