@@ -111,9 +111,9 @@ type Response = {
 
 ## O que é esperado
 
-Esperamos que o desenvolvedor consiga fazer a **estimativa aproximada** do tempo de trabalho necessário para a entrega das funcionalidades, que serão descritas na próxima seção.
+Esperamos que você consiga fazer a **estimativa aproximada** do tempo de trabalho necessário para a entrega das funcionalidades, que serão descritas na próxima seção.
 
-Como parte do desafio também é desejado que o desenvolvedor consiga escolher e explicar os motivos por qual as ferramentas e tecnologias foram usadas e aplicadas.
+Como parte do desafio também é desejado que você consiga escolher e explicar os motivos por qual as ferramentas e tecnologias foram usadas e aplicadas.
 
 ### O que deve ser construído
 
